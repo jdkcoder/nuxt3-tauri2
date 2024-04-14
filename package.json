@@ -1,0 +1,44 @@
+{
+  "name": "nuxt3-tauri2",
+  "description": "Nuxt 3 & Tauri 2 boilerplate (included Pinia, UnoCSS, Axios, VueUse, SASS)",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tauri": "tauri",
+    "dev:t": "tauri dev"
+  },
+  "dependencies": {
+    "nuxt": "latest",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "latest",
+    "@tauri-apps/api": "next",
+    "@tauri-apps/cli": "next",
+    "@tauri-apps/plugin-shell": "latest",
+    "@unocss/nuxt": "latest",
+    "@unocss/reset": "latest",
+    "@vueuse/components": "latest",
+    "@vueuse/core": "latest",
+    "@vueuse/nuxt": "latest",
+    "@vueuse/router": "latest",
+    "@vueuse/integrations": "latest",
+    "axios": "latest",
+    "clsx": "latest",
+    "nuxt-build-cache": "latest",
+    "nuxt-icon": "latest",
+    "pinia": "latest",
+    "sass": "latest",
+    "tailwind-merge": "latest"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
