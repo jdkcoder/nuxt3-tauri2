@@ -1,6 +1,7 @@
 # Tauri 2 + Nuxt 3 Template
 
 [Nuxt 3](https://nuxt.com/docs/getting-started/introduction)
+
 [Tauri 2](https://beta.tauri.app/guides)
 
 ## Setup
